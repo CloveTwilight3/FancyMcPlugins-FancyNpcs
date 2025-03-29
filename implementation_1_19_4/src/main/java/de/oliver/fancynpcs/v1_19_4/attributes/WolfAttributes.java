@@ -32,7 +32,7 @@ public class WolfAttributes {
 
         attributes.add(new NpcAttribute(
                 "color",
-                List.of("RED", "BLUE", "YELLOW", "GREEN", "PURPLE", "ORANGE", "LIME", "MAGENTA", "BROWN", "WHITE", "GREY", "LIGHT_GREY", "LIGHT_BLUE", "BLACK", "CYAN", "PINK", "NONE"),
+                List.of("RED", "BLUE", "YELLOW", "GREEN", "PURPLE", "ORANGE", "LIME", "MAGENTA", "BROWN", "WHITE", "GRAY", "LIGHT_GRAY", "LIGHT_BLUE", "BLACK", "CYAN", "PINK", "NONE"),
                 List.of(EntityType.WOLF),
                 WolfAttributes::setColor
         ));
